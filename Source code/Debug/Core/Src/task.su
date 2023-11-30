@@ -1,0 +1,6 @@
+task.c:10:6:turnOffAllLed	8	static
+task.c:16:6:oneShotTask	8	static
+task.c:19:6:task1	8	static
+task.c:22:6:task2	8	static
+task.c:25:6:task3	8	static
+task.c:28:6:task4	8	static
