@@ -126,9 +126,9 @@ void SCH_Dispatch_Tasks() {
 		if (SCH_TASK_SCHEDULER.TASK_LIST[index].RunMe > 0) {
 			// Run the task
 			(*SCH_TASK_SCHEDULER.TASK_LIST[index].pTask)();
-			// Reset / reduce RunMe flag
+			// ResetRunMe flag
 			SCH_TASK_SCHEDULER.TASK_LIST[index].RunMe -= 1;
-			// schedule to delete task
+			
 			SCH_Delete_Task();
 		}
 	}
